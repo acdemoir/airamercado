@@ -40,7 +40,8 @@ nav {
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    /* font-size: 1.5rem; */
 }
 
 a {
@@ -57,7 +58,8 @@ a:hover {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    /* font-size: 2rem; */
 }
 
 .logo:hover {
@@ -229,7 +231,9 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(52, 52, 52) 0.1rem solid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    border: rgb(48, 48, 48) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -239,7 +243,7 @@ section {
 
 .btn-color-1,
 .btn-color-2:hover {
-    background: rgb(52, 52, 52);
+    background: rgb(48, 48, 48);
     color: white;
 }
 
@@ -316,6 +320,10 @@ section {
     text-align: justify;
 }
 
+.about-icon {
+    cursor: default;
+}
+
 /* SKILLS SECTION */
 
 #skills {
@@ -348,12 +356,12 @@ article {
     display: flex;
     width: 10rem;
     justify-content: space-around;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
-article h3 {
+/* article h3 {
     font-size: 1.14rem;
-}
+} */
 
 article .icon {
     cursor: default;
@@ -389,6 +397,7 @@ article .icon {
 /* CONTACT SECTION */
 
 #contact {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -420,6 +429,12 @@ article .icon {
 
 .contact-icon {
     cursor: default;
+}
+
+.scroll-up-icon {
+    position: absolute;
+    right: -5rem;
+    bottom: -6rem;
 }
 
 /* FOOTER SECTION */
