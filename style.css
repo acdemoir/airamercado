@@ -28,25 +28,33 @@ a,
 
 /* DESKTOP NAVIGATION*/
 
+/* .desktop-nav {
+  position: fixed;
+} */
+
 nav,
 .nav-links {
   display: flex;
 }
 
 nav {
+  background: rgb(86, 86, 86);
+  width: 100%;
+  position: fixed;
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 10vh;
+  z-index: 1000;
 }
 
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 a {
-  color: black;
+  color: rgb(24, 24, 24);
   text-decoration: none;
   text-decoration-color: white;
 }
@@ -60,7 +68,6 @@ a:hover {
 
 .logo {
   font-size: 1.4rem;
-  /* font-size: 2rem; */
 }
 
 .logo:hover {
@@ -78,6 +85,7 @@ a:hover {
 }
 
 .name {
+  color: rgb(24, 24, 24);
   font-size: 1.4rem;
 }
 
@@ -177,11 +185,11 @@ section {
 
 /* HOME SECTION */
 
-#profile {
+#home {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 100vh;
 }
 
 .section__pic-container {
