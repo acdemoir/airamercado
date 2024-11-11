@@ -16,7 +16,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #444042;
 }
 
 /* TRANSITION */
@@ -28,17 +28,13 @@ a,
 
 /* DESKTOP NAVIGATION*/
 
-/* .desktop-nav {
-  position: fixed;
-} */
-
 nav,
 .nav-links {
   display: flex;
 }
 
 nav {
-  background: rgb(86, 86, 86);
+  background: #222021;
   width: 100%;
   position: fixed;
   justify-content: space-around;
@@ -54,16 +50,18 @@ nav {
 }
 
 a {
-  color: rgb(24, 24, 24);
+  color: #FCF8FC;
   text-decoration: none;
-  text-decoration-color: white;
+  /* text-decoration-color: white; */
 }
 
 a:hover {
-  color: grey;
+  color: #D06C80;
+  /* font-weight: 600; */
   text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(180, 180, 180);
+  text-underline-offset: 0.6rem;
+  text-decoration-color: #944052;
+  text-decoration-thickness: 2.75px;
 }
 
 .logo {
@@ -85,7 +83,8 @@ a:hover {
 }
 
 .name {
-  color: rgb(24, 24, 24);
+  color: #FCF8FC;
+  /* Alabaster */
   font-size: 1.4rem;
 }
 
